@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "http-server -a 0.0.0.0 -p 80 dist",
+    "httpServer": "http-server -a 0.0.0.0 -p 80 dist",
+    "start": "webpack serve --open Chrome",
     "build": "webpack",
     "watch": "webpack --watch"
   },
