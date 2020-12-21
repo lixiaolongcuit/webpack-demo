@@ -1,3 +1,4 @@
 dist/*.js
 dist/*.txt
+dist/*.jpg
 node_modules
