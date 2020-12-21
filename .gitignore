@@ -1,4 +1,6 @@
 dist/*.js
 dist/*.txt
 dist/*.jpg
+dist/*.woff
+dist/*.woff2
 node_modules
