@@ -14,11 +14,11 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin({cleanStaleWebpackAssets:false}),
     new HtmlWebpackPlugin({
-      title: 'Development'
+      title: 'Caching'
     })
   ],
   output: {
-    filename: '[name].bundle.js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
   }
 };
